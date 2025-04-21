@@ -68,4 +68,26 @@ A linha de tendência mostra que há uma leve tendência de aumento na renda con
 
 ![Relação entre_idade_renda](imgs/relacao_idade_renda.png)
 
+## Conclusão
+A análise inicial revela relações importantes entre variáveis demográficas e econômicas. A ocupação e a educação se destacam como fatores fortemente associados à renda.
+
+#  Treinamento do Modelo 
+
+## Escolha do Algoritmo KMeans
+
+Para realizar a segmentação dos 2000 indivíduos do dataset socioeconômico, que contém variáveis como idade, renda, educação, ocupação, estado civil e tamanho do assentamento, optei pelo algoritmo KMeans como método principal de clustering não supervisionado. A escolha do KMeans foi motivada por uma combinação de fatores técnicos, práticos e contextuais, que são detalhados a seguir:
+
+Simplicidade e Eficiência Computacional
+O KMeans é um algoritmo de clustering baseado em partição, conhecido por sua simplicidade e eficiência em datasets de tamanho moderado, como o utilizado neste projeto (2000 registros). Ele agrupa os dados minimizando a variância interna dos clusters, o que o torna rápido e escalável, especialmente quando implementado com bibliotecas otimizadas como o scikit-learn. Essa eficiência foi crucial para realizar múltiplas iterações durante a definição do número ideal de clusters.
+
+Suporte ao Método do Cotovelo
+A definição do número ideal de clusters (k=6) foi feita utilizando o método do cotovelo, com auxílio da biblioteca kneed. O KMeans é particularmente compatível com essa técnica, que analisa a soma dos quadrados intra-cluster (WCSS) para identificar o ponto de inflexão onde adicionar mais clusters não melhora significativamente a qualidade da segmentação. A biblioteca kneed automatizou esse processo, confirmando k=5 como o número ideal, o que validou a aplicação do KMeans.
+
+Avaliação com Métricas Robustas
+O desempenho do KMeans foi avaliado com o Silhouette Score (média de 0,35) e o Davies-Bouldin Score (média de 1,2), que medem, respectivamente, a separação e a compactação dos clusters. Essas métricas são amplamente suportadas pelo scikit-learn para o KMeans, permitindo uma avaliação quantitativa da qualidade dos clusters formados. Apesar de os valores indicarem alguma sobreposição entre clusters, o KMeans forneceu uma segmentação inicial útil para análise exploratória.
+
+Conclusão da Escolha
+O KMeans foi selecionado por sua simplicidade, eficiência e compatibilidade com o dataset e as ferramentas utilizadas (scikit-learn, kneed). Embora a sobreposição entre alguns clusters sugira que algoritmos como DBSCAN ou o tratamento de outliers possam melhorar os resultados, o KMeans forneceu uma base sólida para a segmentação inicial, alinhada com os objetivos do projeto. A experiência reforçou a importância de combinar o KMeans com uma preparação robusta dos dados e métricas de avaliação para garantir resultados interpretáveis e úteis.
+
+
 

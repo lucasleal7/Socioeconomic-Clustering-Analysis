@@ -19,13 +19,22 @@ Para desenvolver esta análise de clustering socioeconômico, utilizei a linguag
 A definição do número ideal de clusters foi feita por meio do método do cotovelo, utilizando a biblioteca kneed. O modelo foi avaliado por métricas como Silhouette Score e Davies-Bouldin Score, permitindo medir a separação e compactação dos grupos. Ao final, analisei o perfil de cada cluster para identificar padrões e gerar insights relevantes. Visualizações como gráficos de dispersão e boxplots ajudaram a validar a coerência dos agrupamentos.
 ## O passo a passo
 Passo 1: Definição do objetivo e escopo da análise, focando na segmentação de indivíduos com base em variáveis socioeconômicas e demográficas.
+
 Passo 2: Configuração do ambiente Python e instalação das bibliotecas necessárias, como Pandas, NumPy, Scikit-learn, Matplotlib e Seaborn.
+
 Passo 3: Carregamento e exploração inicial do conjunto de dados, verificando a estrutura, tipos de variáveis e presença de valores ausentes.
+
 Passo 4: Tratamento de dados faltantes por meio de imputação (mediana para variáveis numéricas e moda para categóricas).
+
 Passo 5: Codificação das variáveis categóricas com OrdinalEncoder, preparando os dados para o algoritmo de clustering.
+
 Passo 6: Padronização das variáveis numéricas com StandardScaler para garantir que todas tenham a mesma influência no modelo.
+
 Passo 7: Aplicação do método do cotovelo com kneed para definir o número ideal de clusters para o KMeans.
+
 Passo 8: Treinamento do modelo KMeans com o número ideal de clusters, seguido da avaliação com métricas como Silhouette Score e Davies-Bouldin Score.
+
 Passo 9: Análise dos perfis dos clusters formados, identificando padrões entre idade, renda, escolaridade, ocupação e localização.
+
 Passo 10: Visualização dos resultados com gráficos de dispersão e boxplots, além da documentação completa da solução com insights e sugestões de melhorias.
 

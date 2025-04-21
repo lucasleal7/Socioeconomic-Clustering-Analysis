@@ -38,3 +38,34 @@ Passo 9: Análise dos perfis dos clusters formados, identificando padrões entre
 
 Passo 10: Visualização dos resultados com gráficos de dispersão e boxplots, além da documentação completa da solução com insights e sugestões de melhorias.
 
+# Análise Exploratória dos Dados (EDA)
+
+## 📊Distribuições de Idade e Renda
+Para entender melhor as características dos dados antes de aplicar o modelo de clustering, realizei uma análise exploratória com foco em variáveis-chave como idade e renda.
+
+Abaixo, apresento dois histogramas com curvas de densidade que mostram a distribuição dessas variáveis:
+
+No primeiro gráfico (Age Distribution), observamos uma distribuição assimétrica à direita. A maioria dos dados está concentrada entre 20 e 40 anos, com um pico entre 25 e 30 anos.
+
+No segundo gráfico (Income Distribution), também temos uma assimetria à direita. A maior parte dos indivíduos possui uma renda anual entre 50 mil e 150 mil dólares.
+
+![Distribuição de Idade e Renda](imgs/distribuicao_idade_renda.png)
+
+## 🔥Mapa de Correlação
+A seguir, apresento uma matriz de correlação entre as variáveis numéricas do dataset. Essa visualização ajuda a entender melhor como as variáveis estão relacionadas entre si e a identificar possíveis redundâncias ou padrões interessantes:
+
+Forte relação entre renda e ocupação: Clientes em categorias ocupacionais mais altas geralmente relatam rendas mais elevadas.
+
+Forte relação entre idade e educação: Indivíduos mais velhos tendem a ter níveis de escolaridade mais altos.
+
+![Heatmap de Correlação](imgs/heatmap_correlacao.png)
+
+## 📈Relação entre Idade e Renda
+
+Visualizando a relação entre idade e renda por meio de um gráfico de dispersão com linha de regressão linear.
+
+A linha de tendência mostra que há uma leve tendência de aumento na renda conforme a idade avança, apoiando a correlação observada anteriormente no heatmap.
+
+![Relação entre_idade_renda](imgs/relacao_idade_renda.png)
+
+

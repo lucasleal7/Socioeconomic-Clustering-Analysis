@@ -49,7 +49,8 @@ No primeiro gráfico (Age Distribution), observamos uma distribuição assimétr
 
 No segundo gráfico (Income Distribution), também temos uma assimetria à direita. A maior parte dos indivíduos possui uma renda anual entre 50 mil e 150 mil dólares.
 
-![Distribuição de Idade e Renda](imgs/distribuicao_idade_renda.png)
+![distribuição de idade e renda](
+img/distribuicao_idade_renda.png)
 
 ## 🔥Mapa de Correlação
 A seguir, apresento uma matriz de correlação entre as variáveis numéricas do dataset. Essa visualização ajuda a entender melhor como as variáveis estão relacionadas entre si e a identificar possíveis redundâncias ou padrões interessantes:

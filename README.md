@@ -59,7 +59,8 @@ Forte relação entre renda e ocupação: Clientes em categorias ocupacionais ma
 
 Forte relação entre idade e educação: Indivíduos mais velhos tendem a ter níveis de escolaridade mais altos.
 
-![Heatmap de Correlação](imgs/heatmap_correlacao.png)
+![heatmap de correlação](
+imgs/heatmap_correlacao.png)
 
 ## 📈Relação entre Idade e Renda
 

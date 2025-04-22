@@ -109,84 +109,138 @@ img/elementos_por_cluster.png)
 # Perfis dos Clusters
 
 ## Cluster 0: "Profissionais Solteiros de Renda Média-Alta"
+
 ○ Tamanho: 579 indivíduos. 
+
 ○ Idade: Média de 36,9 anos, mediana de 36, desvio padrão de 8,59. 
+
 ○ Renda: Média de 139.478, mediana de 132.243, desvio padrão de 32.788. 
-○ Sexo: 100% do mesmo gênero (valor 0, possivelmente masculino). 
+
+○ Sexo: 100% do mesmo gênero (valor 0, possivelmente masculino).
+
 ○ Estado Civil: 100% solteiros. 
+
 ○ Educação: 66,9% com ensino médio, 33,1% com nível desconhecido/outro.
+
 ○ Ocupação: 75% empregados qualificados/oficiais, 24,2% 
+
 gerentes/autônomos/funcionários altamente qualificados. 
+
 ○ Tamanho do Assentamento: Média de 1,33 (cidades médias ou grandes). 
+
 ○ Este grupo é formado por profissionais estabelecidos, solteiros, com boa 
 renda e vivendo em áreas urbanas.
 
 ## Cluster 1: "Jovens Mistos de Renda Média em Áreas Rurais" 
+
 ○ Tamanho: 254 indivíduos. 
+
 ○ Idade: Média de 29,8 anos, mediana de 29, desvio padrão de 6,20. 
+
 ○ Renda: Média de 113.688, mediana de 112.227, desvio padrão de 13.071. 
+
 ○ Sexo: Média de 0,53 (mistura de gêneros, ligeiramente equilibrada). 
+
 ○ Estado Civil: 29,8% solteiros, 70,2% não solteiros (casados, divorciados, 
 viúvos). 
+
 ○ Educação: 92,6% com ensino médio, 7,2% com nível desconhecido/outro, 
 0,2% com universidade. 
+
 ○ Ocupação: 98,7% empregados qualificados/oficiais, 1,3% 
 desempregados/não qualificados. 
+
 ○ Tamanho do Assentamento: Média de 0,28 (áreas rurais). 
+
 ○ Este grupo representa jovens trabalhadores qualificados, muitos casados ou 
 em relacionamentos, vivendo em áreas rurais com renda moderada.
 
 ## Cluster 2: "Desempregados Solteiros de Renda Baixa em Áreas Rurais" 
+
 ○ Tamanho: 534 indivíduos. 
+
 ○ Idade: Média de 35,8 anos, mediana de 35, desvio padrão de 9,49. 
+
 ○ Renda: Média de 89.885, mediana de 84.779, desvio padrão de 23.377. 
+
 ○ Sexo: 100% do mesmo gênero (valor 0, possivelmente masculino). 
+
 ○ Estado Civil: 85,7% solteiros, 14,3% não solteiros. 
+
 ○ Educação: 74,8% com ensino médio, 25% com nível desconhecido/outro, 
+
 0,2% com universidade. 
+
 ○ Ocupação: 100% desempregados/não qualificados. 
+
 ○ Tamanho do Assentamento: Média de 0,12 (majoritariamente áreas rurais). 
+
 ○ Este grupo é formado por indivíduos desempregados ou não qualificados, 
+
 com baixa renda, vivendo em áreas rurais e majoritariamente solteiros. 
 
 ## Cluster 3: "Desempregadas Jovens de Renda Baixa em Áreas Rurais" 
 ○ Tamanho: 272 indivíduos. 
+
 ○ Idade: Média de 32,9 anos, mediana de 30, desvio padrão de 5,12. 
+
 ○ Renda: Média de 87.327, mediana de 86.319, desvio padrão de 20.671. 
+
 ○ Sexo: Média de 0,96 (quase todos do gênero oposto, possivelmente 
 feminino). 
+
 ○ Estado Civil: 69,1% solteiros, 30,9% não solteiros. 
+
 ○ Educação: 71,7% com ensino médio, 28,3% com nível desconhecido/outro. 
+
 ○ Ocupação: 100% desempregados/não qualificados. 
+
 ○ Tamanho do Assentamento: Média de 0 (todos em áreas rurais). 
+
 ○ Este grupo é similar ao Cluster 2, mas com predominância de mulheres 
 jovens, também desempregadas e com baixa renda. 
 
 ## Cluster 4: "Jovens Casados de Renda Média-Alta em Áreas Urbanas" 
 ○ Tamanho: 361 indivíduos. 
+
 ○ Idade: Média de 28,1 anos, mediana de 28, desvio padrão de 5,12. 
+
 ○ Renda: Média de 127.664, mediana de 118.428, desvio padrão de 30.789. 
+
 ○ Sexo: Média de 0,57 (mistura de gêneros). 
+
 ○ Estado Civil: 100% não solteiros. 
+
 ○ Educação: 99,5% com ensino médio, 0,5% com universidade. 
+
 ○ Ocupação: 82% empregados qualificados/oficiais, 15,8% 
 gerentes/autônomos/funcionários altamente qualificados, 2,2% 
 desempregados/não qualificados. 
+
 ○ Tamanho do Assentamento: Média de 1,21 (cidades médias ou grandes). 
+
 ○ Este grupo é formado por jovens casados, com boa renda, vivendo em áreas 
 urbanas e trabalhando em posições qualificadas. 
 
 ## Cluster 5: "Profissionais Mais Velhos de Alta Renda e Educação Superior" 
 ○ Tamanho: Possivelmente vazio (verificação necessária). 
+
 ○ Idade: Média de 55,9 anos, mediana de 57, desvio padrão de 10,45. 
+
 ○ Renda: Média de 159.967, mediana de 149.410, desvio padrão de 44.328. 
+
 ○ Sexo: Média de 0,48 (gêneros equilibrados). 
+
 ○ Estado Civil: 31,3% solteiros, 68,7% não solteiros. 
+
 ○ Educação: 14,5% com ensino médio, 85,5% com nível universitário. 
+
 ○ Ocupação: 57,8% empregados qualificados/oficiais, 29,3% 
 gerentes/autônomos/funcionários altamente qualificados, 12,9% 
 desempregados/não qualificados. 
+
 ○ Tamanho do Assentamento: Média de 1,15 (cidades médias ou grandes). 
+
 ○ Este grupo representa profissionais mais velhos, com alta educação e renda, 
 vivendo em áreas urbanas e ocupando posições variadas, incluindo cargos 
 de liderança.

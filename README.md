@@ -60,7 +60,7 @@ Forte relação entre renda e ocupação: Clientes em categorias ocupacionais ma
 Forte relação entre idade e educação: Indivíduos mais velhos tendem a ter níveis de escolaridade mais altos.
 
 ![heatmap de correlação](
-imgs/heatmap_correlacao.png)
+img/heatmap_correlacao.png)
 
 ## 📈Relação entre Idade e Renda
 
@@ -68,7 +68,8 @@ Visualizando a relação entre idade e renda por meio de um gráfico de dispers�
 
 A linha de tendência mostra que há uma leve tendência de aumento na renda conforme a idade avança, apoiando a correlação observada anteriormente no heatmap.
 
-![Relação entre_idade_renda](imgs/relacao_idade_renda.png)
+![Relação entre_idade_renda](
+img/relacao_idade_renda.png)
 
 ## Conclusão
 A análise inicial revela relações importantes entre variáveis demográficas e econômicas. A ocupação e a educação se destacam como fatores fortemente associados à renda.
@@ -95,13 +96,15 @@ O KMeans foi selecionado por sua simplicidade, eficiência e compatibilidade com
 
 O gráfico do método do cotovelo mostra o Silhouette Score para diferentes números de clusters. O pico em 6 clusters indica a melhor separação entre os grupos, servindo como complemento ao dendrograma.
 
-![Método do Cotovelo](imgs/cotovelo.png)
+![Método do Cotovelo](
+img/cotovelo.png)
 
 #  🔍 Quantidade de Elementos por Cluster
 
 Essa visualização ajuda a entender a distribuição de elementos em cada cluster. Clusters 0 e 2 concentram a maior parte dos dados.
 
-![Elementos_por_Cluster](imgs/elementos_por_cluster.png)
+![Elementos_por_Cluster](
+img/elementos_por_cluster.png)
 
 # Perfis dos Clusters
 
